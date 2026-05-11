@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {font-size:62.50%;}
+body {font-size:1em;line-height:1;width:100%;}
+ul li {list-style:none;}
+a {text-decoration:none;color:inherit;}
+h1,h2,h3,h4,h5,h6,p,caption,input,textarea,select,optgroup,option,button {font-size:100%;}
+
+:root {
+  --background:#e8e8e8;
+  --hiberus: #87ceeb;
+  --hiberus-dark: #002a56;
+  --yellow:#fffacd;
+
+}
+
+html {background: var(--hiberus-dark);}
+html *{color: var(--hiberus);}
+a, button{background: var(--yellow);color: var(--hiberus-dark);}
